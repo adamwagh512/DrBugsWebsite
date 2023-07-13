@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example of how to import fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@layer base {
+    /* Example of how to change fonts for global style */
+    /* * {
+        @apply font-[Cookie]
+    } */
+    h1 {
+        @apply text-3xl font-bold
+    }
+    li {
+        @apply px-4
+    }
+}
