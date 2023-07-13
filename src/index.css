@@ -16,4 +16,7 @@
     li {
         @apply px-4
     }
+    body {
+        @apply bg-blue-950
+    }
 }
