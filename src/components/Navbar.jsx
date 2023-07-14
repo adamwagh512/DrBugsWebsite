@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
         <div><img src={logo} className="h-[80px] justify-left"/></div>
         <div>
-          <h1 className="hidden md:flex">Dr. Bugs </h1>
+          <h1 className="hidden md:flex">Dr. Bugs Pest Control </h1>
         </div>
         <div className="hidden md:flex">
           {/* Creates an unordered list to hold all of our menu items */}
@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className= {nav ? "w-full bg-black bg-opacity-80 text-white absolute top-[90px] left-0 h-screen flex justify-center text-center" : 'absolute left-[-100%]'}>
+        <div className= {nav ? "w-full bg-black bg-opacity-90 text-white absolute top-[90px] left-0 h-screen flex justify-center text-center" : 'absolute left-[-100%]'}>
           <ul>
             <li className="text-2xl py-5">About Us</li>
             <li className="text-2xl py-5">Services</li>
